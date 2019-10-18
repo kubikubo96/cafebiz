@@ -59,11 +59,6 @@
     padding-bottom: 30px;
     border-bottom: 1px dotted #c3c3c3;
 }
-
-
-.content .container .cc{
-    padding-left: 0;
-}
 .content .container .cc .c9{
     margin-top: 30px;
 }
@@ -110,5 +105,15 @@
      }
  }
  /*col-s... */
- @media only screen and (min-width:700px) and (max-width: 9999px) {
+ @media only screen and (min-width:768px) and (max-width: 9999px) {
+    .content .container .c61{
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+    .content .container .c62{
+        padding-right: 30px;
+    }
+    .content .container .cc{
+    padding-left: 0;
+}
  }
